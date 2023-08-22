@@ -3,7 +3,7 @@ import streamlit as st
 from pathlib import Path
 import configparser
 
-openai.api_key = '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'
+openai.api_key = "Enter your Open AI's api key here"
 
 def get_response_from_chatgpt(text):
     prompt= f"Identify and return the sentiment either positive or negative in given text. text: {text} "
